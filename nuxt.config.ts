@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   ],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
+    disableHMR: true,
   },
 
   googleFonts: {

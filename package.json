@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@iconify-json/radix-icons": "^1.2.0",
-    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@nuxtjs/tailwindcss": "npm:@nuxtjs/tailwindcss@nightly",
     "nuxt-particles": "^0.3.0",
     "tailwindcss-animated": "^1.1.2",
     "typescript": "^5.7.2"

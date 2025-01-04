@@ -37,20 +37,3 @@
     </g>
   </svg>
 </template>
-
-<script setup>
-const props = defineProps({
-  width: {
-    type: String,
-    default: "100",
-  },
-  height: {
-    type: String,
-    default: "100",
-  },
-});
-</script>
-
-<style scoped>
-/* Add any additional styles here if needed */
-</style>

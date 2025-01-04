@@ -1,12 +1,12 @@
 <template>
-  <nav class="bg-white p-4 shadow-md w-1/3 top-0 z-50 rounded-md">
-    <ul class="flex space-x-6 justify-center">
-      <li>
+  <nav class="p-4 md:w-2/3 w-1/3 lg:w-1/3 top-0 z-50 text-white">
+    <ul class="flex space-x-6 justify-center text-white font-inter">
+      <li class="text-white font-inter">
         <a
           href="#about"
-          class="nav-link"
+          class="nav-link text-white"
           @click.prevent="scrollToSection('about')"
-          >About Me</a
+          >About</a
         >
       </li>
       <li>
@@ -50,14 +50,15 @@ const scrollToSection = (sectionId: string) => {
 
 <style scoped>
 .nav-link {
-  color: #333;
+  color: #dbdbdb;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   transition: color 0.3s ease;
+  font-family: inherit;
 }
 
 .nav-link:hover {
-  color: #1e3a8a;
+  color: rgb(255, 255, 255);
 }
 </style>

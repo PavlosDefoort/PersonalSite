@@ -1,0 +1,38 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="10.320px"
+    height="8.000px"
+    viewBox="0 -431 570 442"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    aria-hidden="true"
+    style=""
+  >
+    <defs>
+      <path
+        id="MJX-6-TEX-I-1D70B"
+        d="M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z"
+      ></path>
+    </defs>
+    <g stroke="#ffffff" fill="#ffffff" stroke-width="0" transform="scale(1,-1)">
+      <g data-mml-node="math">
+        <g data-mml-node="mi">
+          <use data-c="1D70B" xlink:href="#MJX-6-TEX-I-1D70B"></use>
+        </g>
+      </g>
+    </g>
+  </svg>
+</template>
+
+<script setup>
+const props = defineProps({
+  width: {
+    type: String,
+    default: "100",
+  },
+  height: {
+    type: String,
+    default: "100",
+  },
+});
+</script>

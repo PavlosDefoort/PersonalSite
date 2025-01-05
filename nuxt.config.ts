@@ -2,17 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: [
-    "@nuxt/ui",
-    "@nuxt/image",
-    "nuxt-particles",
-    "@nuxtjs/google-fonts",
-    "@nuxtjs/tailwindcss",
-  ],
-  tailwindcss: {
-    cssPath: "~/assets/css/tailwind.css",
-    disableHMR: true,
-  },
+  modules: ["@nuxtjs/google-fonts", "@nuxt/ui", "@nuxtjs/tailwindcss"],
 
   googleFonts: {
     families: {
@@ -21,7 +11,6 @@ export default defineNuxtConfig({
     },
     display: "swap", // Optional: Font display strategy
   },
-
-  css: ["~/assets/css/tailwind.css"],
   compatibilityDate: "2024-12-26",
+  css: ["~/assets/css/tailwind.css"],
 });

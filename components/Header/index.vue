@@ -83,7 +83,7 @@ export default {
 </script>
 
 <style scoped>
-/* Transition for fade and slide effect */
+/* Transition for fade and slide effectt */
 .fade-slide-enter-active,
 .fade-slide-leave-active {
   transition: opacity 0.3s ease, transform 0.3s ease;
